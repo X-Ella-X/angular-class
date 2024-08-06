@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="BookCreateComponentTitle" datatype="html">
+        <source>Create Book</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/book-create/book-create.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <note priority="1" from="description">Title for the create book page</note>
+        <note priority="1" from="meaning">title create book</note>
+        <target>Buch anlegen</target>
+      </trans-unit>
+      <trans-unit id="BookEditComponentTitle" datatype="html">
+        <source>Edit Book</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/book-edit/book-edit.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <note priority="1" from="description">Title for the edit book page</note>
+        <note priority="1" from="meaning">title edit book</note>
+        <target>Buch bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="BookFormComponentLabelTitle" datatype="html">
+        <source>Title</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/book-form/book-form.component.html</context>
+          <context context-type="linenumber">2,5</context>
+        </context-group>
+        <note priority="1" from="description">Label for the title input</note>
+        <note priority="1" from="meaning">label title</note>
+        <target>Titel</target>
+      </trans-unit>
+      <trans-unit id="BookFormComponentLabelSubtitle" datatype="html">
+        <source>Subtitle</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/book-form/book-form.component.html</context>
+          <context context-type="linenumber">9,12</context>
+        </context-group>
+        <note priority="1" from="description">Label for the subtitle input</note>
+        <note priority="1" from="meaning">label subtitle</note>
+        <target>Untertitel</target>
+      </trans-unit>
+      <trans-unit id="BookFormComponentLabelIsbn" datatype="html">
+        <source>ISBN</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/book-form/book-form.component.html</context>
+          <context context-type="linenumber">12,15</context>
+        </context-group>
+        <note priority="1" from="description">Label for the ISBN input</note>
+        <note priority="1" from="meaning">label isbn</note>
+        <target>ISBN</target>
+      </trans-unit>
+      <trans-unit id="BookFormComponentLabelAuthors" datatype="html">
+        <source>Authors</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/book-form/book-form.component.html</context>
+          <context context-type="linenumber">19,22</context>
+        </context-group>
+        <note priority="1" from="description">Label for the authors inputs</note>
+        <note priority="1" from="meaning">label authors</note>
+        <target>Autorinnen/Autoren</target>
+      </trans-unit>
+      <trans-unit id="BookFormComponentAddAuthor" datatype="html">
+        <source> + Author </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/book-form/book-form.component.html</context>
+          <context context-type="linenumber">23,27</context>
+        </context-group>
+        <note priority="1" from="description">Text for the button to add an author input</note>
+        <note priority="1" from="meaning">button add author</note>
+        <target>+ Autor</target>
+      </trans-unit>
+      <trans-unit id="BookFormComponentLabelDescription" datatype="html">
+        <source>Description</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/book-form/book-form.component.html</context>
+          <context context-type="linenumber">36,39</context>
+        </context-group>
+        <note priority="1" from="description">Label for the description text</note>
+        <note priority="1" from="meaning">label description</note>
+        <target>Beschreibung</target>
+      </trans-unit>
+      <trans-unit id="BookFormComponentLabelPublished" datatype="html">
+        <source>Published</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/book-form/book-form.component.html</context>
+          <context context-type="linenumber">39,40</context>
+        </context-group>
+        <note priority="1" from="description">Label for the published input</note>
+        <note priority="1" from="meaning">label published</note>
+        <target>Veröffentlicht</target>
+      </trans-unit>
+      <trans-unit id="BookFormComponentLabelThumbnail" datatype="html">
+        <source>Thumbnail URL</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/book-form/book-form.component.html</context>
+          <context context-type="linenumber">42,45</context>
+        </context-group>
+        <note priority="1" from="description">Label for the thumbnail input</note>
+        <note priority="1" from="meaning">label thumbnail</note>
+        <target>Vorschaubild URL</target>
+      </trans-unit>
+      <trans-unit id="BookFormComponentSave" datatype="html">
+        <source> Save </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/book-form/book-form.component.html</context>
+          <context context-type="linenumber">46,49</context>
+        </context-group>
+        <note priority="1" from="description">Text for save button</note>
+        <note priority="1" from="meaning">button save</note>
+        <target>Speichern</target>
+      </trans-unit>
+      <trans-unit id="BookFormComponentErrorTitleRequired" datatype="html">
+        <source>Title is required</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/book-form/book-form.component.ts</context>
+          <context context-type="linenumber">98</context>
+        </context-group>
+        <note priority="1" from="description">Error message for title required</note>
+        <note priority="1" from="meaning">error title required</note>
+        <target>Ein Titel ist erforderlich.</target>
+      </trans-unit>
+      <trans-unit id="BookFormComponentErrorIsbnRequired" datatype="html">
+        <source>ISBN is required</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/book-form/book-form.component.ts</context>
+          <context context-type="linenumber">101,100</context>
+        </context-group>
+        <note priority="1" from="description">Error message for ISBN required</note>
+        <note priority="1" from="meaning">error isbn required</note>
+        <target>Die ISBN ist erforderlich.</target>
+      </trans-unit>
+      <trans-unit id="AppComponentHome" datatype="html">
+        <source>Home</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <note priority="1" from="description">Text of the link to the home screen</note>
+        <note priority="1" from="meaning">link home</note>
+        <target>Startseite</target>
+      </trans-unit>
+      <trans-unit id="AppComponentBooks" datatype="html">
+        <source>Books</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">Text of the link to the books screen</note>
+        <note priority="1" from="meaning">link books</note>
+        <target>Bücher</target>
+      </trans-unit>
+      <trans-unit id="AppComponentAdmin" datatype="html">
+        <source>Administration</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">Text of the link to the admin screen</note>
+        <note priority="1" from="meaning">link admin</note>
+        <target>Administration</target>
+      </trans-unit>
+      <trans-unit id="AppComponentLogin" datatype="html">
+        <source>Login</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description">Text of the login button</note>
+        <note priority="1" from="meaning">action login</note>
+        <target>Anmelden</target>
+      </trans-unit>
+      <trans-unit id="AppComponentLogout" datatype="html">
+        <source>Logout</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">Text of the login button</note>
+        <note priority="1" from="meaning">action logout</note>
+        <target>Abmelden</target>
+      </trans-unit>
+      <trans-unit id="BookDetailsComponentAuthors" datatype="html">
+        <source>Authors</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/books/book-details/book-details.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">Headline for the authors</note>
+        <note priority="1" from="meaning">headline authors</note>
+        <target>Autorinnen/Autoren</target>
+      </trans-unit>
+      <trans-unit id="BookDetailsComponentIsbn" datatype="html">
+        <source>ISBN</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/books/book-details/book-details.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">Headline for the ISBN</note>
+        <note priority="1" from="meaning">headline ISBN</note>
+        <target>ISBN</target>
+      </trans-unit>
+      <trans-unit id="BookDetailsComponentPublished" datatype="html">
+        <source>Published</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/books/book-details/book-details.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description">Headline for the published date</note>
+        <note priority="1" from="meaning">headline published</note>
+        <target>Veröffentlicht</target>
+      </trans-unit>
+      <trans-unit id="BookDetailsComponentDescription" datatype="html">
+        <source>Description</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/books/book-details/book-details.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <note priority="1" from="description">Headline for the description</note>
+        <note priority="1" from="meaning">headline description</note>
+        <target>Beschreibung</target>
+      </trans-unit>
+      <trans-unit id="BookDetailsComponentAltCover" datatype="html">
+        <source>Cover</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/books/book-details/book-details.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <note priority="1" from="description">Alternative text when no cover is defined</note>
+        <note priority="1" from="meaning">cover alt text</note>
+        <target>Vorschaubild</target>
+      </trans-unit>
+      <trans-unit id="BookDetailsComponentBackToList" datatype="html">
+        <source>Back to list</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/books/book-details/book-details.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <note priority="1" from="description">Link for navigating back to the books list</note>
+        <note priority="1" from="meaning">link back</note>
+        <target>Zurück zur Liste</target>
+      </trans-unit>
+      <trans-unit id="BookDetailsComponentRemove" datatype="html">
+        <source> Remove book </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/books/book-details/book-details.component.html</context>
+          <context context-type="linenumber">28,30</context>
+        </context-group>
+        <note priority="1" from="description">Button text to remove a book</note>
+        <note priority="1" from="meaning">button remove</note>
+        <target>Buch löschen</target>
+      </trans-unit>
+      <trans-unit id="BookDetailsComponentEdit" datatype="html">
+        <source> Edit book </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/books/book-details/book-details.component.html</context>
+          <context context-type="linenumber">33,35</context>
+        </context-group>
+        <note priority="1" from="description">Button text to edit a book</note>
+        <note priority="1" from="meaning">button edit</note>
+        <target>Buch bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="BookListItemComponentAltCover" datatype="html">
+        <source>Cover</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/books/book-list-item/book-list-item.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <note priority="1" from="description">Alternative text when no cover is defined</note>
+        <note priority="1" from="meaning">cover alt text</note>
+        <target>Vorschaubild</target>
+      </trans-unit>
+      <trans-unit id="BookListItemComponentIsbn" datatype="html">
+        <source>ISBN</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/books/book-list-item/book-list-item.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">Text for ISBN right before the number</note>
+        <note priority="1" from="meaning">book text before ISBN</note>
+        <target>ISBN</target>
+      </trans-unit>
+      <trans-unit id="BookListComponentTitle" datatype="html">
+        <source>Books</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/books/book-list/book-list.component.html</context>
+          <context context-type="linenumber">1,3</context>
+        </context-group>
+        <note priority="1" from="description">Title for the books page</note>
+        <note priority="1" from="meaning">title books</note>
+        <target>Bücher</target>
+      </trans-unit>
+      <trans-unit id="BookListComponentNoBooks" datatype="html">
+        <source> No books available. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/books/book-list/book-list.component.html</context>
+          <context context-type="linenumber">7,10</context>
+        </context-group>
+        <note priority="1" from="description">Text displayed when no books are available</note>
+        <note priority="1" from="meaning">text no books</note>
+        <target>Keine Bücher verfügbar</target>
+      </trans-unit>
+      <trans-unit id="HomeComponentTitle" datatype="html">
+        <source>Home</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <note priority="1" from="description">Title for the home page</note>
+        <note priority="1" from="meaning">title home</note>
+        <target>Startseite</target>
+      </trans-unit>
+      <trans-unit id="HomeComponentBooks" datatype="html">
+        <source> Show book list
+</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">3,5</context>
+        </context-group>
+        <note priority="1" from="description">Text of the link to the books screen</note>
+        <note priority="1" from="meaning">link books list</note>
+        <target>Bücherliste anzeigen</target>
+      </trans-unit>
+      <trans-unit id="HomeComponentSearchHeadline" datatype="html">
+        <source>Search</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">Headline text above the search input</note>
+        <note priority="1" from="meaning">headline search</note>
+        <target>Suche</target>
+      </trans-unit>
+      <trans-unit id="SearchComponentInput" datatype="html">
+        <source>Search</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">Input field to search for books</note>
+        <note priority="1" from="meaning">input search</note>
+        <target>Suche</target>
+      </trans-unit>
+      <trans-unit id="AuthGuardAlert" datatype="html">
+        <source>Not logged in!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/auth.guard.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <note priority="1" from="description">A message showing a user is not logged in currently</note>
+        <note priority="1" from="meaning">alert not logged in</note>
+        <target>Nicht angemeldet!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

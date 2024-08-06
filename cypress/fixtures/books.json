@@ -1,0 +1,11 @@
+[
+  {
+    "isbn": "0123456789",
+    "title": "Dummy title",
+    "authors": ["John Doe"],
+    "published": "2022-08-01T12:00:00.000Z",
+    "subtitle": "",
+    "description": "Some description",
+    "thumbnailUrl": "https://via.placeholder.com/500.png"
+  }
+]

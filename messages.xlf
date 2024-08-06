@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="AppComponentHome" datatype="html">
+        <source> Home </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">7,9</context>
+        </context-group>
+        <note priority="1" from="description">nav home</note>
+      </trans-unit>
+      <trans-unit id="AppComponentBooks" datatype="html">
+        <source> Books </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">15,17</context>
+        </context-group>
+        <note priority="1" from="description">nav books</note>
+      </trans-unit>
+      <trans-unit id="AppComponentAdmin" datatype="html">
+        <source> Administration </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">23,25</context>
+        </context-group>
+        <note priority="1" from="description">nav admin</note>
+      </trans-unit>
+      <trans-unit id="AppComponentLogin" datatype="html">
+        <source> Login </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">32,34</context>
+        </context-group>
+        <note priority="1" from="description">login</note>
+      </trans-unit>
+      <trans-unit id="AppComponentLogout" datatype="html">
+        <source> Logout </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">40,42</context>
+        </context-group>
+        <note priority="1" from="description">logout</note>
+      </trans-unit>
+      <trans-unit id="SearchComponentInput" datatype="html">
+        <source>Search</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description"> input search</note>
+        <note priority="1" from="meaning">search input ARIA label </note>
+      </trans-unit>
+      <trans-unit id="AuthGuardAlert" datatype="html">
+        <source>Not logged in!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/auth.guard.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description">alert message when not logged in</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

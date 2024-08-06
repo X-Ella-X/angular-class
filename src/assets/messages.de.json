@@ -1,0 +1,12 @@
+{
+  "locale": "en-US",
+  "translations": {
+    "AppComponentHome": " Home ",
+    "AppComponentBooks": " Books ",
+    "AppComponentAdmin": " Administration ",
+    "AppComponentLogin": " Login ",
+    "AppComponentLogout": " Logout ",
+    "SearchComponentInput": "Search",
+    "AuthGuardAlert": "Not logged in!"
+  }
+}
